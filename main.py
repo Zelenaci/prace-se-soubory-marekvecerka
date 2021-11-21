@@ -20,9 +20,7 @@ Zadejte volbu:
 prvnivolba=int(input("Zadejte číslo volby: "))    
 
 if prvnivolba==1:
-    soubor1=open(input("Zadejte cestu k pracovnímu souboru: "),"r")
-    obsah=soubor1.read()
-    soubor2=open(input("Zadejte název výstupního souboru: "),"w")
+    
     if __name__ == "__main__":
         print("""
         Co chceš dělat?
